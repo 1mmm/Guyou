@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fadingEdge="vertical"
+    android:id="@+id/widget32"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/background"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="#fdfdfd"
+        android:textSize="18sp"
+        android:background="@mipmap/sector_1_title"
+        android:text="还 款 流 水" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="45dp"
+        android:text="暂无还款流水请按退出键返回"
+        android:textColor="@color/text_gray"
+        android:gravity="center_horizontal|center_vertical"/>
+
+</LinearLayout>
+
